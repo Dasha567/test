@@ -1,0 +1,111 @@
+@font-face {
+    font-family:al ;
+    src: url(../font/ofont.ru_Felidae\ \(1\).ttf);
+}
+
+body{
+     font-family: al;
+    background: rgb(194, 217, 228);
+}
+.container{
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    color: #142c41;
+}
+/* =================================== */
+ul{
+padding: 0;
+margin: 0;
+}
+ul li{
+    list-style-type: none;
+    border: 1px solid #eee;
+}
+ 
+.taskNo img{
+    width: 100px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 32px #123;
+}
+.taskNo h2, form h2{
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+
+}
+ 
+.taskList div{
+    display: inline-block;
+}
+.taskList div:first-child{
+   width: 270px;
+   text-align: left;
+}
+.taskList div:last-child{
+   width: 120px;
+   text-align: right;
+}
+.yes{
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-image:url(../img/RHQ24HP.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.no{
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-image:url(../img/R6WTMVP.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;}
+/* =========================================================== */
+
+  
+form button{
+    display: block;
+    width: 65%;
+    margin: 5px auto 
+;
+padding: 10 px 0;
+border-radius: 7px;
+text-transform: uppercase;
+font-size: 30px;
+background: #4d8187;
+color: white;
+font-family: al;
+
+}
+form button:hover{
+    background: white;
+color: #4d8187;
+border: none;
+}
+form input{
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* =============== */
+.displayNone{
+    display: none;
+}
+.editTask{
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+}
